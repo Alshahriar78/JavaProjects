@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/CompoundInterestCalcultor/CompoundInterestCalcultor.iml" filepath="$PROJECT_DIR$/CompoundInterestCalcultor/CompoundInterestCalcultor.iml" />
       <module fileurl="file://$PROJECT_DIR$/ComputeArea/ComputeArea.iml" filepath="$PROJECT_DIR$/ComputeArea/ComputeArea.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/JavaProjects.iml" filepath="$PROJECT_DIR$/.idea/JavaProjects.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
