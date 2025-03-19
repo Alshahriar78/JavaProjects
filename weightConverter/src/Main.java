@@ -21,11 +21,13 @@ public class Main {
             weight = scanner.nextDouble();
             newWeight = weight *  0.453592;
             System.out.printf("The converted kgs  weight is %.2f ",newWeight);
-        }else{
+        }else if(choice==2){
             System.out.println("Enter The Weight in kgs: ");
             weight = scanner.nextDouble();
             newWeight = weight *  2.20462;
             System.out.printf("The converted lbs  weight is %.2f ",newWeight);
+        }else{
+            System.out.println("This is not valid Choice");
         }
 
     }
