@@ -29,6 +29,6 @@ public class Main {
         }else{
             System.out.println("This is not valid Choice");
         }
-
+    scanner.close();
     }
 }
