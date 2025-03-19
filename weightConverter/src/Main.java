@@ -16,7 +16,7 @@ public class Main {
         choice = scanner.nextInt();
         System.out.println("Enter The Weight ");
         weight = scanner.nextDouble();
-        // logic 
+        // applying Logic
         if(choice==1){
             newWeight = weight *  0.453592;
             System.out.printf("The converted kgs  weight is %.2f ",newWeight);
