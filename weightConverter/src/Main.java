@@ -11,10 +11,12 @@ public class Main {
         double weight ;
         double newWeight;
         int choice;
+        // user input
         System.out.println("Choice any Option 1 or 2");
         choice = scanner.nextInt();
         System.out.println("Enter The Weight ");
         weight = scanner.nextDouble();
+        // logic 
         if(choice==1){
             newWeight = weight *  0.453592;
             System.out.printf("The converted kgs  weight is %.2f ",newWeight);
