@@ -27,6 +27,7 @@ public class Main {
 //            System.out.println("Email Must Contains @ ");
 //        }
          // ternary Operator
+         // type variable = (condition) ? "True" : "False";
           int age;
           System.out.print("Enter Your Age:");
           age = scanner.nextInt();
