@@ -14,13 +14,16 @@ public class Main {
         // user input
         System.out.println("Choice any Option 1 or 2");
         choice = scanner.nextInt();
-        System.out.println("Enter The Weight ");
-        weight = scanner.nextDouble();
+
         // applying Logic
         if(choice==1){
+            System.out.println("Enter The Weight in lbs: ");
+            weight = scanner.nextDouble();
             newWeight = weight *  0.453592;
             System.out.printf("The converted kgs  weight is %.2f ",newWeight);
         }else{
+            System.out.println("Enter The Weight in kgs: ");
+            weight = scanner.nextDouble();
             newWeight = weight *  2.20462;
             System.out.printf("The converted lbs  weight is %.2f ",newWeight);
         }
